@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@/*": [
+        "src/*"
+      ]
+    },
+    "types": [
+      "@dcloudio/types",
+      "miniprogram-api-typings",
+      "mini-types"
+    ]
+  },
+  "vueCompilerOptions": {
+    "target": 2
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ]
+}

@@ -1,0 +1,201 @@
+{
+  "easycom": {
+    "^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+  },
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/login/login",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/login/bind_userinfo",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/me/index",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/me/user_info",
+      "style": {
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/invitate_review_list",
+      "style": {
+        "navigationBarTitleText": "作业打分邀请",
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    },
+    {
+      "path": "pages/review_page",
+      "style": {
+        "navigationBarTitleText": "作业评价",
+        "navigationStyle": "custom",
+        "app-plus": {
+          "titleNView": false
+        }
+      }
+    }
+  ],
+  "subPackages": [
+    {
+      "root": "pages/subpackages/student",
+      "pages": [
+        {
+          "path": "course_list",
+          "style": {
+            "navigationBarTitleText": "课程中心",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "my_course_list",
+          "style": {
+            "navigationBarTitleText": "我的课程",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "course_page",
+          "style": {
+            "navigationBarTitleText": "课程内容",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "work_page",
+          "style": {
+            "navigationBarTitleText": "作业内容",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "my_work_list",
+          "style": {
+            "navigationBarTitleText": "我的作业列表",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "record_video",
+          "style": {
+            "navigationBarTitleText": "录制",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/subpackages/teacher",
+      "pages": [
+        {
+          "path": "my_course_list",
+          "style": {
+            "navigationBarTitleText": "我的课程",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "student_work_list",
+          "style": {
+            "navigationBarTitleText": "学生作业",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "course_page",
+          "style": {
+            "navigationBarTitleText": "课程信息",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        },
+        {
+          "path": "student_work_page",
+          "style": {
+            "navigationBarTitleText": "作业信息",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        }
+      ]
+    },
+    {
+      "root": "pages/subpackages/root",
+      "pages": [
+        {
+          "path": "index",
+          "style": {
+            "navigationBarTitleText": "",
+            "navigationStyle": "custom",
+            "app-plus": {
+              "titleNView": false
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "globalStyle": {},
+  "rightWindow": {}
+}
